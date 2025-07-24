@@ -43,7 +43,7 @@ function FormEmailInput(props: Props) {
       )}`}
     >
       <Input
-        id="newsletter-input-email"
+        id="wec-newsletter-input-email"
         type="email"
         name="newsletter"
         label={formatIOMessage({ id: inputLabel, intl })}
