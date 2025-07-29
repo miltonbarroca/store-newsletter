@@ -192,6 +192,7 @@ function Newsletter(props: PropsWithChildren<Props>) {
   return (
     <form className={handles.newsletterForm} onSubmit={handleSubmit}>
       {children}
+      <p>FORM CUSTOM FUNCIONANDO</p>
     </form>
   )
 }
